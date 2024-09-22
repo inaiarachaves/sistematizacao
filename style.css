@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Righteous&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg,#FFF4F6 16.62%, #f7d8dd 85.61%);
+
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+
+}
+
+.cabecalho-imagem {
+    height: 72px;
+
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 30px;
+}
+
+.cabecalho-menu-item {
+    font-family: 'Sarala', sans-serif;
+    color: #8bbfd8;
+    font-weight: 400;
+    font-size: 18px;
+    
+}
+
+.conteudo{
+    margin-bottom: 48px;
+    border-top: 0.4px solid #8bbfd8;
+
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;  
+    justify-content: space-around;
+  
+}
+
+.conteudo-principal-escrito-titulo {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 50px;
+    color: #8bbfd8;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.conteudo-principal-escrito-titulo-subtitulo {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #626262;
+}
+
+.rodape-botao {
+    background-color: #ffb4c4;
+    width: 150px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #626262;
+    justify-content: space-around;
+
+}
+
+.conteudo-principal-imagem {
+    height: 300px;
+
+}
+
+.conteudo-principal-escrito-texto {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #626262;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 1cm;
+
+
+}
+
+.rodape {
+    padding: 32px;
+    border-top: 0.4px solid #8bbfd8;
+    align-items: center;
+
+}
+
+.rodape-titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    color: #626262;
+    justify-content: space-around;
+
+}
+
+.rodape-paragrafo-texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    color: #626262;
+}
+
+
